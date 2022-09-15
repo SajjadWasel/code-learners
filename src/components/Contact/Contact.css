@@ -1,0 +1,7 @@
+.contact-form {
+    border-radius: 15px;
+    background: #f5f5f5;
+    box-shadow: 31px 31px 62px #919191,
+        -31px -31px 62px #ffffff;
+    padding: 6%;
+}

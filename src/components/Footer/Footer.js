@@ -9,31 +9,32 @@ const Footer = () => {
                 <h3 className="fw-bold bg-light p-3 rounded"><span className="violet">Friday</span> Learners</h3>
                 <SocialIcons></SocialIcons>
             </div>
-            <div className='d-flex flex-column mb-5'>
-                <h3 className='fw-bold'>Pages</h3>
+            
+            
+
+            <div className='d-flex me-5 pe-5 flex-column mb-5'>
+                <h3 className='fw-bold'>Site Map</h3>
                 <Link className='text-decoration-none text-light' to='home'>Home</Link>
                 <Link className='text-decoration-none text-light' to='about'>About</Link>
                 <Link className='text-decoration-none text-light' to='courses'>Courses</Link>
                 <Link className='text-decoration-none text-light' to='contact'>Contact</Link>
             </div>
+
 
             <div className='d-flex flex-column mb-5'>
                 <h3 className='fw-bold'>Courses</h3>
-                <Link className='text-decoration-none text-light' to='home'>Home</Link>
-                <Link className='text-decoration-none text-light' to='about'>About</Link>
-                <Link className='text-decoration-none text-light' to='courses'>Courses</Link>
-                <Link className='text-decoration-none text-light' to='contact'>Contact</Link>
+                <p className='text-decoration-none text-light'>Data Science</p>
+                <p className='text-decoration-none text-light'>Compititive Programming</p>
+                <p className='text-decoration-none text-light'>Data Analyst</p>
+                <p className='text-decoration-none text-light'>Artificial Inteligence</p>
             </div>
 
-            <div className='d-flex flex-column mb-5'>
+            <div className='mb-5 p-2 text-light'>
                 <h3 className='fw-bold'>Contact</h3>
-                <p className='text-decoration-none text-light' to='home'>R/N-3, Bonani, Dhaka</p>
-                <p className='text-decoration-none text-light' to='home'>email@fridaylearners.com</p>
-                <p className='text-decoration-none text-light' to='home'>Support: 0123456789</p>
-                
-            </div>
-            <div className='form'>
-
+                <p>Sanmar Orchid Tower</p>
+                <p>R/N-3, Bonani, Dhaka</p>
+                <p>email@fridaylearners.com</p>
+                <p>Support: 0123456789</p>
 
             </div>
         </div>

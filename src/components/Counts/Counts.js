@@ -1,9 +1,15 @@
 import React from 'react';
 import './Counts.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Counts = () => {
+    useEffect(() => {
+        AOS.init({ duration: 1000 })
+    }, [])
     return (
-        <div className='container d-flex counts wrap'>
+        <div data-aos="zoom-in-up" className='container d-flex counts jutify-content-center align-items-center flex-wrap flex-md-nowrap'>
             <div className='m-5 px-5 py-3 bg-white rounded shadow'>
                 <h2 className='violet fw-bold'>2020+</h2>
                 <h4 className='text-secondary'>

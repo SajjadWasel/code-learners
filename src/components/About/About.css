@@ -1,18 +1,20 @@
-.about div {
-    width: 42%;
-}
-
-.about img {
+.about-img {
+    height: 80%;
     border-right: 10px solid #8671f1;
     border-bottom: 10px solid #8671f1;
     border-radius: 26px;
     box-shadow: 10px 10px 100px #9687e4;
+    background-color: #8671f1;
 }
 
 
-.badge-icon {
-    height: 22px;
-    width: 22px;
-    margin-right: 5px;
+@media only screen and (max-width: 791px){
+    .about-img {
+        height: 30%;
+        width: 70%;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
 }
+
 

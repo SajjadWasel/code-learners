@@ -1,0 +1,26 @@
+.course-card {
+    width: 65%;
+    border-radius: 10px;
+}
+
+.course-card img {
+    width: 325px;
+    height: 220px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+@media only screen and (max-width: 791px) {
+    .course-card img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+
+.course-card .mentor {
+    height: 60px;
+    width: 60px;
+}
