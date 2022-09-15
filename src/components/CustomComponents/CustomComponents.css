@@ -1,0 +1,78 @@
+.violet {
+    color: #8671f1;
+}
+
+.bg-violet {
+    background-color: #8671f1;
+}
+
+.coral {
+    color: #f85c54;
+}
+
+.btn-full {
+    background: #8671f1;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    border: 3px solid #8671f1;
+}
+
+.btn-full:hover {
+    border: 3px solid #8671f1;
+    background: white;
+    padding: 10px 20px;
+    color: #8671f1;
+    border-radius: 7px;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.btn-outline {
+    border: 3px solid #8671f1;
+    padding: 10px 20px;
+    color: #8671f1;
+    border-radius: 7px;
+    align-items: center;
+}
+
+.btn-outline:hover {
+    background-color: #8671f1;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    align-items: center;
+    border: 3px solid #8671f1;
+    transition: 0.2s;
+}
+
+
+button {
+    background-color: white;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 100px rgba(132, 132, 127, 0.642);
+}
+
+@media only screen and (max-width: 991px) {
+
+    .btn-full,
+    .btn-outline {
+        width: 50%;
+        margin-left: 7px;
+        margin-top: 10px;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}

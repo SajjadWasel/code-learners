@@ -1,0 +1,18 @@
+.about div {
+    width: 42%;
+}
+
+.about img {
+    border-right: 10px solid #8671f1;
+    border-bottom: 10px solid #8671f1;
+    border-radius: 26px;
+    box-shadow: 10px 10px 100px #9687e4;
+}
+
+
+.badge-icon {
+    height: 22px;
+    width: 22px;
+    margin-right: 5px;
+}
+

@@ -1,0 +1,37 @@
+.awards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    width: 247px;
+    height: 120px;
+}
+
+.single-award:hover {
+    background-image: url(https://images.unsplash.com/photo-1613826488249-b67eba609bed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGF3YXJkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleY(1.2);
+    transition: transform 0.2s;
+}
+
+.single-award:hover h5 {
+    visibility: hidden;
+}
+
+.single-award:hover p {
+    visibility: hidden;
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+    .about,
+    .award {
+        flex-direction: column;
+    }
+
+
+}

@@ -1,0 +1,19 @@
+.nav-items {
+    color: black;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.nav-items:hover {
+    color: #8671f1;
+}
+
+.active {
+    color: #8671f1;
+}
+
+.deactive {
+    color: black;
+}
+

@@ -1,0 +1,12 @@
+@media only screen and (max-width: 991px){
+    .navber {
+        text-align: center;
+    }
+
+    .nav-svg {
+        display: inline;
+        height: 15px;
+        width: 15px;
+        margin-right: 5px;
+    }
+}
