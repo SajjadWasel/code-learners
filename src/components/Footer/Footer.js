@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='d-flex flex-md-row flex-column justify-content-evenly align-items-md-baseline align-items-center mt-5 pt-5 bg-violet text-light'>
             <div className='icons p-5 w-md-100 text-center text-dark'>
-                <h3 className="fw-bold bg-light p-3 rounded"><span className="violet">Friday</span> Learners</h3>
+                <h3 className="fw-bold bg-light p-3 rounded"><span className="violet">Coding</span> Learners</h3>
                 <SocialIcons></SocialIcons>
             </div>
             

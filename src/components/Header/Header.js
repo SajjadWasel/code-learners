@@ -11,7 +11,7 @@ function Header() {
     <Navbar collapseOnSelect expand="lg" className="navber">
       <Container>
         <Navbar.Brand href='/'>
-          <h3 className="fw-bold"><span className="violet">Friday</span> Learners</h3>
+          <h3 className="fw-bold"><span className="violet">Coding</span> Learners</h3>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
