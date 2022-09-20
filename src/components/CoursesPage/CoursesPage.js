@@ -14,7 +14,7 @@ const CoursesPage = () => {
 
                 
                 {
-                    courses.map(course => <CourseCard key={course.id} course={course}></CourseCard>)
+                    courses.map(course => <CourseCard key={course.id} course={course} btn={'Enroll'} sliceStart={0}  sliceEnd={100}></CourseCard>)
                 }
 
             </div>

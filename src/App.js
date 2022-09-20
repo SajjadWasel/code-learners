@@ -16,6 +16,10 @@ import Testimonials from './components/Testimonials/Testimonials';
 import SpecificCourse from './components/SpacificCourse/SpecificCourse';
 
 
+
+
+
+
 function App() {
   // ===== AOS(Animate On Scroll) Animiation Starts=====
   useEffect(() => {
@@ -33,7 +37,7 @@ function App() {
         <Route path='home' element={<Navigate to='/' replace />}></Route>
         <Route path='about' element={<AboutPage></AboutPage>}></Route>
         <Route path='courses' element={<CoursesPage></CoursesPage>}></Route>
-        <Route path='course' element={<SpecificCourse></SpecificCourse>}></Route>
+        <Route path='/courses/course/:courseId' element={<SpecificCourse></SpecificCourse>}></Route>
         <Route path='testimonials' element={<Testimonials></Testimonials>}>Contact</Route>
         <Route path='contact' element={<Contact></Contact>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

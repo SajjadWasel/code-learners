@@ -27,7 +27,7 @@ const About = (props) => {
             </div>
 
             {/* ===== Why Choose Us ======= */}
-            <div data-aos="fade-up-left" className='about container row mx-auto mt-4'>
+            <div data-aos="fade-up" className='about container row mx-auto mt-4'>
 
                 <div className='about-body col-md-6 m-2 mt-md-0 mt-5 ms-0 ms-md-5'>
                     <h1 className="fw-bold">Why<span className="violet"> Choose</span> Us</h1>

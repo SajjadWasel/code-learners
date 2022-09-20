@@ -1,7 +1,18 @@
+import {  useNavigate } from 'react-router-dom';
 import './CourseCard.css';
 
 function CourseCard(props) {
-  const { title, img, description, price, mentor, mentor_img, mentor_description } = props.course;
+  const { title, img, description, price, mentor, mentor_img, mentor_description, id } = props.course;
+  const btnName = props.btn;
+  console.log(props.sliceStart, props.sliceEnd)
+  const navigate_To = useNavigate();
+  const handleClick = () => {
+    
+    window.location.pathname === "/courses" ? navigate_To(`course/${id}`) : navigate_To(`courses/course/${id}`);
+    
+  }
+
+
   return (
     <div data-aos="zoom-in-up" className='course-card d-flex flex-column flex-md-row border border-infor m-3'>
       <div>
@@ -17,11 +28,13 @@ function CourseCard(props) {
         </div>
         <h5 className='fw-bold'>{title}</h5>
         <p>
-          {description.slice(0, 100)}<span title={description}>...</span>
+          {description.slice(props.sliceStart, props.sliceEnd)}<span title={description}>...</span>
         </p>
         <div className="d-flex align-items-center justify-content-between mt-3">
           <h2 className="violet fw-bold">{price}</h2>
-          <button className="btn-full">Enroll</button>
+          {/* <Link to={courseUrl}> */}
+            <button onClick={() => handleClick()} className="btn-full">{btnName}</button>
+          {/* </Link> */}
         </div>
       </div>
     </div>
