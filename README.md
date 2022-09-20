@@ -2,6 +2,7 @@
 Friday learners is a online learning website where people can enroll courses. 
 
 ## Site Link:
+https://codinglearners.netlify.app/
 
 ## 5 Usecase of this website:
 * It can be use as a course selling website.
