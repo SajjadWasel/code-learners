@@ -11,6 +11,10 @@ import Footer from './components/Footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Testimonials from './components/Testimonials/Testimonials';
+
+import SpecificCourse from './components/SpacificCourse/SpecificCourse';
+
 
 function App() {
   // ===== AOS(Animate On Scroll) Animiation Starts=====
@@ -26,10 +30,12 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}>Home</Route>
-        <Route path='home' element={<Navigate to='/' replace />}>Home</Route>
-        <Route path='about' element={<AboutPage></AboutPage>}>About</Route>
-        <Route path='courses' element={<CoursesPage></CoursesPage>}>Courses</Route>
-        <Route path='contact' element={<Contact></Contact>}>Contact</Route>
+        <Route path='home' element={<Navigate to='/' replace />}></Route>
+        <Route path='about' element={<AboutPage></AboutPage>}></Route>
+        <Route path='courses' element={<CoursesPage></CoursesPage>}></Route>
+        <Route path='course' element={<SpecificCourse></SpecificCourse>}></Route>
+        <Route path='testimonials' element={<Testimonials></Testimonials>}>Contact</Route>
+        <Route path='contact' element={<Contact></Contact>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       {/* ==== Footer ==== */}

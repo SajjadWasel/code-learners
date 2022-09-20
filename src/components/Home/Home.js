@@ -6,6 +6,7 @@ import About from '../About/About';
 import EmailForm from '../EmailForm/EmailForm';
 import LoadCourses from '../LoadCourses/LoadCourses';
 import CourseCard from '../CourseCard/CourseCard';
+import Testimonials from '../Testimonials/Testimonials';
 
 
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
             </div>
 
             {/* ===== About Section ===== */}
-            <div data-aos='zoom-in-up'>
+            <div data-aos="fade-up-right">
                 <About text='Know More About Us' text2='Contact Us' className='text-start'></About>
             </div>
 
@@ -55,6 +56,14 @@ const Home = () => {
                     popularCourses.map(course => <CourseCard key={course.id} course={course}></CourseCard>)
                 }
 
+            </div>
+
+            {/* ==== Testimonials Section ==== */}
+            <h1 className="fw-bold text-center violet my-3">
+                <span className='text-dark'>Course</span> Testimonials
+            </h1>
+            <div className="container"  data-aos='flip-right'>
+                <Testimonials></Testimonials>
             </div>
             
         </>
